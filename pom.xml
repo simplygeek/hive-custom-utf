@@ -14,7 +14,7 @@
             <configuration>
                 <archive>
                     <manifest>
-                        <mainClass>com.matthewrathbone.example.RawMapreduce</mainClass>
+                        <mainClass>com.ashishb.hive.udfs.RawMapreduce</mainClass>
                     </manifest>
                 </archive>
                 <descriptorRefs>
@@ -27,11 +27,11 @@
   </build>
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.matthewrathbone.example</groupId>
+  <groupId>com.ashishb.hive.udfs</groupId>
   <artifactId>hive-extensions</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>hive-extensions</name>
+  <name>hive-udfs</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
